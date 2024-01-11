@@ -2,13 +2,12 @@
 """
 Basic annotations - floor
 """
-import math
 
 
-def floor(a: float) -> float:
+def floor(n: float) -> int:
     """
     floor annotanted function: takes one argument
-    a: float
-    return: the floor of the float
+    n: float
+    return: int
     """
-    return math.floor(a)
+    return int(n)
