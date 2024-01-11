@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+Basic annotations - to string
+"""
+
+
 def to_str(a: float) -> str:
     """
     to_str annotated func:

@@ -1,4 +1,9 @@
+#!/usr/bin/env python3
+"""
+Basic annotations - floor
+"""
 import math
+
 
 def floor(a: float) -> float:
     """
@@ -7,4 +12,3 @@ def floor(a: float) -> float:
     return: the floor of the float 
     """
     return math.floor(a)
-
